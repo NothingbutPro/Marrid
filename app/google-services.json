@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "113567467824",
+    "firebase_url": "https://meem-5582a.firebaseio.com",
+    "project_id": "meem-5582a",
+    "storage_bucket": "meem-5582a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113567467824:android:9db9b9fefb9369c6e4a0f5",
+        "android_client_info": {
+          "package_name": "com.ics.meem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113567467824-06dudt8g27dd3feonf15hplp7s4ccbj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ics.meem",
+            "certificate_hash": "fded2c36cf5477a13f0c9fdf6f869f2e7a0ecc43"
+          }
+        },
+        {
+          "client_id": "113567467824-g0qgkr055og8417psirk71b9qpql8hmd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ics.meem",
+            "certificate_hash": "cdaa489ecbf580aebfd7c0afa5ccd1df0acfb4e7"
+          }
+        },
+        {
+          "client_id": "113567467824-u8lpf1tpnnc2587ohl26brenp7tljtal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR2teaMHt2lwDyjxySAhFceuVJEnFsg1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113567467824-u8lpf1tpnnc2587ohl26brenp7tljtal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

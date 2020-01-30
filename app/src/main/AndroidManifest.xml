@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ics.meem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_clear"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:exported="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.ics.meem.Service.NotificationActivity"></activity>
+        <activity android:name="com.ics.meem.Activity_Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--<activity android:name=".ShowProdDetail" /> &lt;!&ndash; Firebase Notifications &ndash;&gt;-->
+        <service android:name=".fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+
+        <activity android:name="com.ics.meem.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.ics.meem.Fragment.Pop_Fragment" />
+        <activity android:name="com.ics.meem.web.Web_View" />
+
+        <activity android:name="com.ics.meem.Muslimpop_pop"/>
+    </application>
+
+</manifest>

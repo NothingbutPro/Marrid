@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="210dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:background="@android:color/white"
+    >
+
+
+        <Button
+            android:id="@+id/tet_text"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            android:background="@android:color/white"
+            android:text="X"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:layout_marginRight="8dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/call1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="+91 8686151489"
+            android:layout_marginTop="10dp"
+android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:paddingLeft="15dp"
+            />
+
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/call2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="+91 7731037526"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:paddingLeft="15dp"
+            />
+
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/call3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+91 6309403704"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:paddingLeft="15dp"
+            />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="300dp"
+android:layout_height="400dp"
+android:padding="5dp"
+    android:layout_weight="2"
+android:layout_gravity="center">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#D52D85"
+        >
+        <TextView
+            android:id="@+id/Share_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share My profile"
+            android:textColor="@android:color/white"
+            android:textSize="15pt"
+            android:background="#D52D85"/>
+
+    <TextView
+    android:id="@+id/Share_my_profile_close"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="X"
+        android:textColor="#a9a9a9"
+    android:textSize="10pt"
+    android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        />
+
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose what you want to share"
+        android:padding="10dp"
+        android:layout_marginLeft="18dp"
+        android:textStyle="bold"
+        android:textSize="8pt"/>
+    <CheckBox
+        android:id="@+id/checkb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:text="Profile Photo"
+        android:layout_marginLeft="18dp"/>
+
+    <CheckBox
+        android:id="@+id/checkb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:text="Album photos"
+        android:layout_marginLeft="18dp"/>
+
+    <CheckBox
+        android:id="@+id/checkb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:text="Bio Data"
+        android:layout_marginLeft="18dp"/>
+
+    <CheckBox
+        android:id="@+id/checkb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:text="Email"
+        android:layout_marginLeft="18dp"/>
+
+    <CheckBox
+        android:id="@+id/checkb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8pt"
+        android:text="Phone number"
+        android:layout_marginLeft="18dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Duration"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:layout_marginLeft="18dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/iv_subcat_minimum"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:text="-"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="#62BAD2"
+                android:layout_marginLeft="18dp"/>
+
+
+                <TextView
+                    android:id="@+id/tv_contetiy"
+                    android:layout_width="80dp"
+                    android:layout_height="20dp"
+                    android:text="0"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="8pt"/>
+
+
+            <TextView
+                android:id="@+id/iv_subcat_mixmum"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:text="+"
+                android:background="#62BAD2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hours"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+
+    <Spinner
+        android:id="@+id/spinnerpop"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+
+        android:layout_marginLeft="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minutes"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:background="#61AE61"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:src="@drawable/whatsapp_button"
+                android:text="share by Whatsapp"
+                android:paddingLeft="2dp"
+                android:layout_gravity="left"
+                android:scaleType="centerInside"
+                android:layout_marginLeft="5dp"
+                android:background="#61AE61"
+                />
+            <TextView
+                android:id="@+id/share_whatsapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#61AE61"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:padding="2dp"
+                android:text="Share by Whatsaap"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#62BAD2"
+            android:layout_marginLeft="10dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_mail_black_24dp"
+                android:layout_marginLeft="5dp"
+                android:scaleType="centerInside"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/share_mail"
+                android:text="Share by Mail"
+                android:layout_gravity="right"
+                android:gravity="left"
+                android:layout_marginLeft="5dp"
+                android:paddingTop="2dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:background="#62BAD2"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+<!--        <Button-->
+<!--            android:id="@+id/share_mail"-->
+<!--            android:layout_width="130dp"-->
+<!--            android:text="SHARE"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:background="#62BAD2"/>-->
+    </LinearLayout>
+
+</LinearLayout>
